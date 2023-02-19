@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20vh;
+}
+
+.container h1{
+    font-size: 5rem;
+}
+
+.container span{
+    font-size: 8rem;
+}
+
+.container button{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 8px;
+}
+
+button:hover{
+    background-color: rgb(29, 29, 29);
+    color: #ffffff;
+    transition: 0.3s;
+}
